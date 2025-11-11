@@ -13,6 +13,7 @@ string get_username() {
 
 void greet(string &name) {
   cout << "Hello " << name << "!" << endl;
+  serve_water();
   serve_coffee();
   serve_tea();
 }
