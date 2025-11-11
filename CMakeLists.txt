@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.13)
 set(PROJECT_NAME wisher)
 set(CMAKE_CXX_STANDARD 14)
-set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON) #Important if you want code completion IDEs and neovim
 
 project(${PROJECT_NAME})
 set(SOURCE_FILES 
