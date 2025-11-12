@@ -10,7 +10,7 @@ set(SOURCE_FILES
   include/Greeter.hpp
 )
 
-add_subdirectory(libs/snacks libs/snacks/build)
+add_subdirectory(libs/snacks)
 
 
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
