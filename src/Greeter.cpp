@@ -15,5 +15,5 @@ void greet(string &name) {
   cout << "Hello " << name << "!" << endl;
   serve_water();
   serve_beer();
-  serve_tea();
+  serve_daru();
 }

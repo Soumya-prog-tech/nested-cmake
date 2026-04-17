@@ -1,3 +1,3 @@
 void serve_beer();
-void serve_tea();
+void serve_daru();
 void serve_water();
